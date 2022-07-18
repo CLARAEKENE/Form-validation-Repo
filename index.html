@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>sign-up form</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>
+                    Create Account
+                </h2>
+            </div>
+            <form name="formReg" action="" class="form" id="form" onsubmit="return formValidation()" method="post">
+                <div class="form-control">
+                    <label>First Name</label>
+                    <input name="firstName" type="text" placeholder="clara" id="firstName">
+                </div> 
+
+                <div class="form-control">
+                    <label>Middle Name</label>
+                    <input name="middleName" type="text" placeholder="ekene" id="middleName">
+                </div> 
+
+
+                <div class="form-control">
+                    <label>Last Name</label>
+                    <input name="lastName" type="text" placeholder="iwuala" id="lastName">
+                </div> 
+
+
+                <div class="form-control">
+                    <label>Email</label>
+                    <input name="email" type="email" placeholder="claraekene39@gmail.com" id="email">
+                </div> 
+
+
+                <div class="form-control">
+                    <label>Password</label>
+                    <input name="password" type="password" placeholder="password" id="password">
+                </div> 
+
+
+                <div class="form-control">
+                    <label>Confirm Password</label>
+                    <input name="password2" type="password" placeholder="confirm password" id="password2">
+                </div>
+
+
+                <div class="form-control">
+                    <label>Address</label>
+                    <input name="address" type="text" placeholder="address" id="address">
+                </div> 
+
+              <button>Submit</button>
+
+            </form>
+            
+        </div>
+    
+        <script src="index.js"> </script>   
+    </body>
+</html>
